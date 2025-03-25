@@ -1,0 +1,89 @@
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: darkgreen
+}
+
+nav {
+  background-color: lawngreen;
+  padding: 15px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: black;
+  margin: 0 20px;
+  font-weight: 900;
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+.player-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.player-list div {
+  border: 2px solid aqua;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: black;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.player-list div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px purple;
+}
+
+.player-list h4 {
+  margin: 0 0 10px;
+  color: deeppink;
+  font-size: 1.2em;
+}
+
+.player-list p {
+  margin: 0;
+  color: lime;
+}
+
+.single-player {
+  padding: 25px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.single-player h2 {
+  color: lime;
+  margin-bottom: 15px;
+}
+
+.single-player p {
+  margin-bottom: 10px;
+  color: aqua;
+}
+
+.new-player-form {
+  padding: 25px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.new-player-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: deeppink;
+  font-weight: 600;
+}
+
+.new-player-form input {
+  margin-bottom: 15px;
+}

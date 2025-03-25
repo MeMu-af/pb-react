@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 50px;
+  padding: 0;
+  background-color: black;
+  color: yellow;
+  line-height: 1.6;
+}
+
+a {
+  color: aqua;
+  font-size: 1.5em;
+}
+
+a:hover {
+  color: purple;
+}
+
+input[type="text"] {
+  padding: 10px 12px;
+  border: 2px solid lime;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1em;
+  background-color: tan;
+  color: gray;
+}
+
+button {
+  background-color: deeppink;
+  color: black;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+button:hover {
+  background-color: goldenrod;
+}

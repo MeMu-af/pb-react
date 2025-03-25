@@ -4,6 +4,8 @@ import AllPlayers from './components/AllPlayers';
 import SinglePlayer from './components/SinglePlayer';
 import NewPlayerForm from './components/NewPlayerForm';
 import NavBar from './components/NavBar';
+import './App.css';
+import './index.css'
 
 function App() {
   return (
